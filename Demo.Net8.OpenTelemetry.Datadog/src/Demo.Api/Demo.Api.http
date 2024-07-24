@@ -1,0 +1,34 @@
+@Demo.Api_HostAddress = http://localhost:5103
+
+POST {{Demo.Api_HostAddress}}/api/products/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Id": "1",
+  "Name": "Product 1",
+  "Price": 100
+}
+
+###
+
+GET {{Demo.Api_HostAddress}}/api/products/
+Accept: application/json
+
+###
+
+GET {{Demo.Api_HostAddress}}/api/products/1
+Accept: application/json
+
+###
+
+PUT {{Demo.Api_HostAddress}}/api/products/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Name": "Product 1",
+  "Price": 250
+}
+
+###
