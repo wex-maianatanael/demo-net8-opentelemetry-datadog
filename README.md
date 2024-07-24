@@ -22,7 +22,7 @@ Demonstrates how to send telemetry data to Datadog by using OTLP exporter
 
 | Commit hash | Link | Description |
 | :--- | :--- | :--- |
-| `hash` | 🔗[Code](url) | Adds otel collector. |
+| `70650ff20673ba830aee45dd807934c54d744cc4` | 🔗[Code](https://github.com/wex-maianatanael/demo-net8-opentelemetry-datadog/commit/70650ff20673ba830aee45dd807934c54d744cc4) | Adds otel collector. |
 
 ## External References
 
@@ -31,6 +31,8 @@ Demonstrates how to send telemetry data to Datadog by using OTLP exporter
   - [OpenTelemetry Collector and Datadog Exporter](https://docs.datadoghq.com/opentelemetry/collector_exporter/)
   - [Azure Container Apps - env vars](https://docs.datadoghq.com/serverless/azure_container_apps/#environment-variables)
   - [.NET Logs and Traces](https://docs.datadoghq.com/tracing/other_telemetry/connect_logs_and_traces/dotnet/?tab=serilog)
+  - [Tracing Docker Applications](https://docs.datadoghq.com/containers/docker/apm/?tab=linux)
+  - [Getting Started with the Agent](https://docs.datadoghq.com/getting_started/agent/#about-the-agent)
 
 - OpenTemetry Official doc 🔭
   - [Getting Started OpenTelemetry + .NET](https://opentelemetry.io/docs/languages/net/)
@@ -47,5 +49,9 @@ Demonstrates how to send telemetry data to Datadog by using OTLP exporter
     - [Datadog exporter - traces/metrics](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/exporter/datadogexporter/examples/trace-metrics.yaml)
     - [Datadog exporter - examples](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/datadogexporter/examples)
 
+- Microsoft Official doc 💻
+  - [.NET observability with OpenTelemetry](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel)
+
 - Blog posts 📰
   - [Medium - Setting up an OpenTelemetry collector that exports to DataDog](https://medium.com/@gerardyin/setting-up-an-opentelemetry-collector-that-exports-to-datadog-cb5d5dceadb7)
+  - [Nash Tech. - Working with Datadog + Opentelemetry in .Net Application (datadog docker agent)](https://blog.nashtechglobal.com/working-with-datadog-opentelemetry-in-net-application/)
