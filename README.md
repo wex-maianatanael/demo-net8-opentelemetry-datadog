@@ -55,3 +55,4 @@ Demonstrates how to send telemetry data to Datadog by using OTLP exporter
 - Blog posts 📰
   - [Medium - Setting up an OpenTelemetry collector that exports to DataDog](https://medium.com/@gerardyin/setting-up-an-opentelemetry-collector-that-exports-to-datadog-cb5d5dceadb7)
   - [Nash Tech. - Working with Datadog + Opentelemetry in .Net Application (datadog docker agent)](https://blog.nashtechglobal.com/working-with-datadog-opentelemetry-in-net-application/)
+  - [.NET Logs with OpenTelemetry](https://signoz.io/blog/opentelemetry-dotnet-logs/)
